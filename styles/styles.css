@@ -247,3 +247,74 @@ font-weight: 600;
     }
     
     
+    /* BMI-CALCULATOR */
+    
+    .bmi-calculator-section{
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .bmi-calculator-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bmi-calculator-chart-information{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: var(--secondary-color);
+        padding: 4rem;
+        margin-top: 4rem;
+    }
+    .bmi-calculator-chart-information h2{
+        font-size: 1.7rem;
+        font-weight: 900;
+        margin-bottom: 3rem;
+        text-align: left;
+    }
+    .bmi-calculator-chart{
+        margin-left: 7rem;
+    }
+    .bmi-calculator-chart table, th, td{
+    border: 1px solid rgba(255,255,255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 1rem;
+    }
+    
+    th{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    td{
+        font-size: 0.87rem;
+        font-weight: 400;
+        color: rgb(255,255,255, 0.5);
+    }
+    
+    .bmi-calculator-information{
+        width: 580px;
+    }
+    .calculate-bmi{
+        margin-top: 0.7rem;
+    }
+    .calculate-bmi input,select{
+        width: 40%;
+        margin: 10px 10px 5px 0;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255,255,255, 0.1);
+        color: rgba(255,255,255, 0.3);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .calculate-bmi select{
+        width: 44%;
+       
+    }
+    .calculate-bmi #activity{
+        width: 91%;
+    }
+   
+
