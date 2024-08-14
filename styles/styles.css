@@ -379,7 +379,11 @@ font-size: 2.3rem;
     .hours h3{
         margin-top: 4rem;
     }
-    .work-hours .hours a{
+    .hours p{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .hours a{
         text-decoration: none;
         color: var(--primary-color);
        font-size: 1.1rem;
@@ -459,6 +463,9 @@ footer .copyright{
 @media screen and (max-width: 576px) {
 
     /* navbar */
+    .navbar{
+        margin-left: 0%;
+    }
     .navbar-items{
         display: none;
     }
@@ -481,8 +488,9 @@ footer .copyright{
         gap: 3%;
     }
     .banner-content{
-        margin-top: 2%;
+        margin-top: 0%;
         margin-left: 8%;
+        margin-right: 5%;
     }
       
     .banner-content h2{
@@ -558,8 +566,8 @@ footer .copyright{
 
     /* BMI */
     .bmi-calculator-title-para{
-        width: 400px;
-       margin-left: 20px;
+        width: 360px;
+       margin-left: 2rem;
     }
     .bmi-calculator-chart-information{
         grid-template-columns: 1fr;
@@ -570,7 +578,6 @@ footer .copyright{
         font-size: 1.3rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-       
     }
     .bmi-calculator-chart{
         margin-left: 1rem;
